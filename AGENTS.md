@@ -140,3 +140,10 @@ Before implementing any issue, read:
 - Every fairness dashboard update must include intervention guidance.
 - Every moderation flow must preserve immutable audit records.
 - Every release must communicate participant impact in plain language.
+
+## Docker Runtime Baseline
+
+- Local and deployment runtime must be defined in `infra/docker-compose.yml`.
+- Development overrides must be defined in `infra/docker-compose.dev.yml`.
+- Frontend API target must be configurable via `VITE_API_BASE_URL`.
+- Health checks are required before considering deployment successful.

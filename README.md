@@ -65,3 +65,11 @@ Create a portable, auditable social economy layer for communities.
 - Banner SVG: `assets/banner.svg`
 - Social card PNG: `assets/social-card.png`
 - Logo PNG: `assets/logo-512.png`
+
+## Docker Quickstart
+
+- Dev (hot reload): `npm run docker:dev:up`
+- Prod-like: `npm run docker:prod:up`
+- Stop: `npm run docker:dev:down`
+
+See full guide: `docs/DOCKER_CLAUDE.md` and `CLAUDE.md`.

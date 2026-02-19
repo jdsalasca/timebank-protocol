@@ -21,13 +21,14 @@ const fallback: Snapshot = {
 };
 
 export function App() {
+  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8082";
   const [snapshot, setSnapshot] = useState<Snapshot | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     async function load() {
       try {
-        const res = await fetch("http://localhost:8080/api/ledger/balances");
+        const res = await fetch(`${apiBaseUrl}/api/ledger/balances`);
         if (!res.ok) throw new Error(`Request failed with status ${res.status}`);
         const data = (await res.json()) as Snapshot;
         setSnapshot(data);
@@ -37,7 +38,7 @@ export function App() {
       }
     }
     load();
-  }, []);
+  }, [apiBaseUrl]);
 
   const metrics = useMemo(() => {
     if (!snapshot) {
@@ -117,3 +118,5 @@ export function App() {
     </main>
   );
 }
+
+
