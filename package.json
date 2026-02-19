@@ -1,9 +1,17 @@
 {
   "name": "timebank-protocol",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "private": true,
   "type": "module",
   "license": "MIT",
+  "workspaces": [
+    "apps/web-react",
+    "packages/*"
+  ],
   "scripts": {
-    "balances": "node src/compute-balances.mjs examples/ledger.json"
+    "balances": "node src/compute-balances.mjs examples/ledger.json",
+    "dev:web": "npm --workspace apps/web-react run dev",
+    "build:web": "npm --workspace apps/web-react run build",
+    "preview:web": "npm --workspace apps/web-react run preview"
   }
 }

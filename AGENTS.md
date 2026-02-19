@@ -69,3 +69,20 @@ Timebank Protocol enables trustworthy mutual-aid economies where hours are the u
 - successful service completions ratio
 - dispute rate per 100 transactions
 - average time for members to return to healthy balance
+
+## Monorepo Implementation Contract
+
+- v1 stack is fixed: Java backend + React frontend.
+- Ledger invariants and trust scoring are backend-owned.
+- Frontend must never compute canonical balances.
+- Every issue should map to backend, contract, and UI impacts.
+
+## Agent Handoff Template
+
+When closing an issue, agents must provide:
+
+- backend modules changed
+- frontend flows changed
+- contract files updated
+- sample ledger/event before vs after
+- risk notes and mitigation

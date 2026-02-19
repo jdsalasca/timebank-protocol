@@ -1,0 +1,21 @@
+openapi: 3.0.3
+info:
+  title: Timebank Protocol API
+  version: 0.1.0
+paths:
+  /api/health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: API up
+          content:
+            text/plain:
+              schema:
+                type: string
+  /api/ledger/balances:
+    get:
+      summary: Get member balances
+      responses:
+        '200':
+          description: Balances list

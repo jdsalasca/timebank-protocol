@@ -153,3 +153,33 @@ Make mutual aid scalable and trustworthy through an open, auditable time-credit 
   Mitigation: thresholds, alerts, moderator workflows.
 - Risk: low engagement after onboarding.
   Mitigation: reminders, recognition loops, visible impact reports.
+
+## Implementation Blueprint (Java + React Monorepo)
+
+### Backend (Java)
+
+- LedgerController + validation services
+- ReputationService + event processing
+- MatchingService + ranking explainability
+- AlertService for anti-abuse and coordinator actions
+
+### Frontend (React)
+
+- Coordinator dashboard
+- Member trust and balance views
+- Matching queue monitor
+- Weekly impact digest view
+
+### Data and Contracts
+
+- OpenAPI for service contracts
+- JSON ledger examples as regression baseline
+- Versioned policy metadata for threshold changes
+
+## Additional High-Impact Ideas
+
+- verified completion attestations
+- trust circles for local micro-communities
+- multilingual member onboarding assistant
+- fairness heatmap by zone and service category
+- offline-first mobile check-in mode

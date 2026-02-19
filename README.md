@@ -4,42 +4,54 @@
 
 # Timebank Protocol
 
-Open protocol for mutual-aid economies where value is tracked in hours, not money.
+Monorepo platform for mutual-aid economies where value is exchanged in verifiable hours.
 
-<p>
-  <img alt="mvp" src="https://img.shields.io/badge/status-v0.1_MVP-f4a261" />
-  <img alt="license" src="https://img.shields.io/badge/license-MIT-6d274d" />
-</p>
+## Official Stack
 
-## Demo
+- Backend: Java 21 + Spring Boot
+- Frontend: React + TypeScript + Vite
+- Data: PostgreSQL (planned), JSON ledger MVP now
+- Contracts: OpenAPI in `packages/contracts`
 
-![Timebank Protocol demo](assets/demo.gif)
+## Monorepo Layout
 
-## Problem
-
-People can help but often lack budget. Communities need a fair system to exchange help using verifiable time credits.
-
-## MVP
-
-- Ledger format for hour transactions
-- Balance calculator (`npm run balances`)
-- Abuse-resistant policy: negative balance threshold
+- `apps/api-java`: protocol services, ledger rules, reputation, anti-abuse
+- `apps/web-react`: coordinator dashboard and member-facing flows
+- `packages/contracts`: API and event contracts
+- `infra`: local runtime and deployment assets
+- `docs`: governance, ideas, and execution standards
 
 ## Quick start
+
+### Current MVP scripts
 
 ```bash
 npm install
 npm run balances
 ```
 
-## Public roadmap
+### Web app
 
-- https://github.com/jdsalasca/timebank-protocol/issues/1
-- https://github.com/jdsalasca/timebank-protocol/issues/2
+```bash
+cd apps/web-react
+npm install
+npm run dev
+```
 
-## Landing page
+### Java API
 
-- `docs/index.html` (ready for GitHub Pages)
+```bash
+cd apps/api-java
+./mvnw spring-boot:run
+```
+
+## Launch resources
+
+- Demo GIF: `assets/demo.gif`
+- Architecture GIF: `assets/architecture.gif`\n- Architecture SVG: `assets/stack-map.svg`
+- Landing: `docs/index.html`
+- Execution ideas: `docs/ideas.md`
+- Agent playbook: `AGENTS.md`
 
 ## Vision
 
