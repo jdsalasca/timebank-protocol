@@ -86,3 +86,10 @@ When closing an issue, agents must provide:
 - contract files updated
 - sample ledger/event before vs after
 - risk notes and mitigation
+## Agent Operations
+
+- Gemini execution guide: `GEMINI_INSTRUCTIONS.md`
+- Playbook: `docs/IMPLEMENTATION_PLAYBOOK.md`
+- Definition of Done: `docs/DEFINITION_OF_DONE.md`
+- PR checklist: `docs/PR_REVIEW_CHECKLIST.md`
+- System prompt: `docs/agent/SYSTEM_PROMPT.md`
