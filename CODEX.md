@@ -9,6 +9,7 @@ This file defines mandatory behavior for Codex-based implementation agents.
 - Keep ledger and trust rules deterministic, explainable, and auditable.
 - Preserve backend ownership of canonical balances and protocol invariants.
 - Prefer small, reviewable changes with explicit rollback.
+- Follow `docs/agent/agent-capability-matrix.md` and `docs/agent/ux-quality-bar.md`.
 
 ## Non-Negotiable Rules
 

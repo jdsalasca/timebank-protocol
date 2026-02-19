@@ -20,6 +20,8 @@ Timebank Protocol enables communities to exchange support using verifiable hour 
 1. Select one issue labeled `agent-ready`.
 2. Read before coding:
    - `AGENTS.md`
+   - `docs/agent/agent-capability-matrix.md`
+   - `docs/agent/ux-quality-bar.md`
    - `docs/STACK.md`
    - `docs/MONOREPO.md`
    - `docs/ideas.md`
