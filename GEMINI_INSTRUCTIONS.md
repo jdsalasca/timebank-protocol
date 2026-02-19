@@ -57,6 +57,7 @@ Timebank Protocol enables communities to exchange support using verifiable hour 
 - Java tests pass (`mvn -q test`)
 - OpenAPI matches implementation
 - Docs/examples updated for rule changes
+- Frontend PRs include Playwright CLI visual evidence in `output/playwright/` and PR body
 
 ## Critical anti-patterns (must avoid)
 
@@ -66,6 +67,7 @@ Timebank Protocol enables communities to exchange support using verifiable hour 
 - Do not modify docs with malformed escape sequences.
 - Do not break valid JSON in config files.
 - Do not skip tests or bypass required checks.
+- Do not merge frontend changes without Playwright visual audit evidence.
 
 ## Safety and fairness constraints
 

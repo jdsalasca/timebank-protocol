@@ -22,6 +22,7 @@ Timebank Protocol is a monorepo platform for verifiable hour-based mutual aid ex
 - `npm run backlog:current:check`
 - `npm run agent:context:check`
 - If Java backend changed: `mvn -q test` in `apps/api-java`
+- Frontend-impacting changes must include Playwright CLI visual evidence (`output/playwright/*`)
 
 ## Anti-Regression Rules for Gemini
 
@@ -30,6 +31,7 @@ Timebank Protocol is a monorepo platform for verifiable hour-based mutual aid ex
 - Never change unrelated layers in same PR.
 - Never ship malformed markdown or JSON.
 - Never weaken checks (`skipTests`, bypass CI, incomplete verification evidence).
+- Never ship frontend changes without Playwright CLI flow audit evidence.
 
 ## PR Summary Requirements
 

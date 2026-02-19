@@ -92,6 +92,7 @@ When closing an issue, agents must provide:
 - Gemini project context: `GEMINI.md`
 - Gemini execution guide: `GEMINI_INSTRUCTIONS.md`
 - Codex execution contract: `CODEX.md`
+- Playwright visual protocol: `docs/agent/playwright-visual-protocol.md`
 - Playbook: `docs/IMPLEMENTATION_PLAYBOOK.md`
 - Definition of Done: `docs/DEFINITION_OF_DONE.md`
 - PR checklist: `docs/PR_REVIEW_CHECKLIST.md`
@@ -124,6 +125,7 @@ Before implementing any issue, read:
 - `GEMINI.md`
 - `GEMINI_INSTRUCTIONS.md`
 - `CODEX.md`
+- `docs/agent/playwright-visual-protocol.md`
 - `docs/ideas.md`
 - `docs/community/issue-backlog.md`
 - `docs/community/current-backlog.md`
@@ -177,6 +179,12 @@ Run these before push:
 If backend Java files changed, also run:
 
 - `mvn -q test` in `apps/api-java`
+
+If frontend files changed, also run:
+
+- `npm run agent:ux:pw -- open http://localhost:5173 --headed`
+- `npm run agent:ux:pw -- snapshot`
+- `npm run agent:ux:pw -- screenshot output/playwright/<name>.png`
 
 ## Execution Governance Rules (Expanded)
 
