@@ -1,0 +1,19 @@
+name: Timebank Idea
+description: Propose an improvement for protocol, reputation, or anti-abuse rules.
+title: "idea: "
+labels: ["idea", "protocol"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change and why?
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk and abuse considerations
+      description: How does this affect fairness and trust?
+    validations:
+      required: true

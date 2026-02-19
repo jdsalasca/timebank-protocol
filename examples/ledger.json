@@ -1,0 +1,30 @@
+{
+  "network": "pilot-neighborhood-01",
+  "maxNegativeHours": -5,
+  "transactions": [
+    {
+      "id": "tx-001",
+      "from": "ana",
+      "to": "luis",
+      "hours": 2,
+      "service": "grocery_support",
+      "timestamp": "2026-02-19T00:00:00.000Z"
+    },
+    {
+      "id": "tx-002",
+      "from": "luis",
+      "to": "maria",
+      "hours": 1,
+      "service": "math_tutoring",
+      "timestamp": "2026-02-19T01:30:00.000Z"
+    },
+    {
+      "id": "tx-003",
+      "from": "maria",
+      "to": "ana",
+      "hours": 1.5,
+      "service": "childcare_support",
+      "timestamp": "2026-02-19T03:10:00.000Z"
+    }
+  ]
+}
