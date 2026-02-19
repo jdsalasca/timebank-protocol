@@ -8,6 +8,14 @@ Priority legend:
 - `P1`: scaling and community operations.
 - `P2`: strategic protocol expansion.
 
+## Current Sprint Focus (2026-02-19)
+
+1. `ledger: enforce immutable event IDs and replay protection`
+2. `ledger: validate deterministic recomputation and threshold policy paths`
+3. `anti-abuse: ship debt velocity and suspicious accumulation alerts`
+4. `dashboard: expose coordinator fairness risk panel and unmet-needs queue`
+5. `ci/docs: add reproducibility evidence and trust-explainability references`
+
 ## P0 Issues
 
 1. `ledger: enforce strict transaction schema and replay protection`
