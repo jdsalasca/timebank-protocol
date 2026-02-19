@@ -183,3 +183,32 @@ Make mutual aid scalable and trustworthy through an open, auditable time-credit 
 - multilingual member onboarding assistant
 - fairness heatmap by zone and service category
 - offline-first mobile check-in mode
+
+## Detailed Execution Assets
+
+- Story catalog: `docs/agent/user-stories.md`
+- Process diagrams: `docs/agent/process-flows.md`
+- System design: `docs/agent/system-design.md`
+- Delivery checklists: `docs/agent/execution-checklists.md`
+
+## Additional High-Impact Initiatives
+
+### P0 Additions
+
+- Trust and risk panel for coordinator decision support.
+- Ledger event reason taxonomy for disputes and moderation.
+- Member recovery guidance for negative balance states.
+- Data-quality monitor for malformed transaction sources.
+
+### P1 Additions
+
+- Reputation explainability cards in dashboard.
+- Community operations digest with unresolved risk sections.
+- Protocol health score report automation.
+- Coordinator incident-response runbook.
+
+### P2 Additions
+
+- Federation trust bridge policies.
+- Policy simulation sandbox.
+- Proof-of-care public verification layer.
