@@ -18,4 +18,43 @@ paths:
       summary: Get member balances
       responses:
         '200':
-          description: Balances list
+          description: Balances snapshot
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BalanceSnapshot'
+components:
+  schemas:
+    Alert:
+      type: object
+      required:
+        - member
+        - code
+        - message
+      properties:
+        member:
+          type: string
+        code:
+          type: string
+        message:
+          type: string
+    BalanceSnapshot:
+      type: object
+      required:
+        - network
+        - maxNegativeHours
+        - balances
+        - alerts
+      properties:
+        network:
+          type: string
+        maxNegativeHours:
+          type: number
+        balances:
+          type: object
+          additionalProperties:
+            type: number
+        alerts:
+          type: array
+          items:
+            $ref: '#/components/schemas/Alert'
