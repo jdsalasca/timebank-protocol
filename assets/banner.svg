@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 560" role="img" aria-label="Timebank hero banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B1F3B"/>
+      <stop offset="100%" stop-color="#2A9D8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="560" fill="url(#bg)"/>
+  <circle cx="210" cy="280" r="108" fill="#F4A261" opacity="0.95"/>
+  <text x="360" y="250" font-size="82" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#F1FAEE">Timebank Protocol</text>
+  <text x="360" y="320" font-size="34" font-family="Segoe UI, Arial, sans-serif" fill="#D9F7F2">Exchange help as hours with transparent trust rules</text>
+  <text x="360" y="380" font-size="24" font-family="Segoe UI, Arial, sans-serif" fill="#CDEDE7">Java Backend • React Frontend • Auditable Ledger</text>
+</svg>

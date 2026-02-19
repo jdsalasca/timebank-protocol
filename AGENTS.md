@@ -132,3 +132,11 @@ Before implementing any issue, read:
 - Include explicit acceptance criteria and test evidence.
 - Never merge with failing CI.
 - Keep canonical balances backend-owned; frontend rendering only.
+
+## Execution Governance Rules (Expanded)
+
+- Every ledger rule change must include invariant and replay tests.
+- Every trust score change must expose explainability fields.
+- Every fairness dashboard update must include intervention guidance.
+- Every moderation flow must preserve immutable audit records.
+- Every release must communicate participant impact in plain language.

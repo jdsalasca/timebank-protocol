@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-label="Timebank Protocol wordmark">
+  <rect width="1200" height="320" rx="36" fill="#1B1F3B"/>
+  <circle cx="150" cy="160" r="68" fill="#F4A261"/>
+  <path d="M236 114 L300 114 L300 160 L360 160" stroke="#F1FAEE" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <text x="420" y="150" font-size="72" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#F1FAEE">Timebank Protocol</text>
+  <text x="420" y="210" font-size="30" font-family="Segoe UI, Arial, sans-serif" fill="#CDEDE7">Trustworthy mutual aid with verifiable hours</text>
+</svg>

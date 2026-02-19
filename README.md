@@ -56,3 +56,12 @@ cd apps/api-java
 ## Vision
 
 Create a portable, auditable social economy layer for communities.
+
+## Visual Assets
+
+- Brand kit: `assets/brand-kit.md`
+- Mark: `assets/logo-mark.svg`
+- Wordmark: `assets/logo-wordmark.svg`
+- Banner SVG: `assets/banner.svg`
+- Social card PNG: `assets/social-card.png`
+- Logo PNG: `assets/logo-512.png`

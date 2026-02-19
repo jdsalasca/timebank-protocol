@@ -80,8 +80,13 @@ jobs:
               "story:TBP-P1-002 build weekly operations digest automation",
               "story:TBP-P1-003 version policy metadata and expose through API",
               "story:TBP-P1-004 add dispute triage and intervention workflow",
+              "story:TBP-P1-005 add member recovery guidance engine",
+              "story:TBP-P1-006 add trust explainability timeline endpoint",
+              "story:TBP-P1-007 add pilot health snapshot exports",
               "story:TBP-P2-001 design federation-ready community contracts",
-              "story:TBP-P2-002 prototype proof-of-care attestations"
+              "story:TBP-P2-002 prototype proof-of-care attestations",
+              "story:TBP-P2-004 build policy simulation sandbox for threshold/reputation",
+              "story:TBP-P2-005 design low-connectivity mobile workflow and sync policy"
             ].map((title) => {
               const priority = title.includes("TBP-P0-") ? "priority:P0" : title.includes("TBP-P1-") ? "priority:P1" : "priority:P2";
               return { title, labels: [priority, "help wanted", "good first issue", "type:story"] };

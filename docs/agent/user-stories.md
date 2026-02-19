@@ -91,3 +91,25 @@
 ### TBP-P2-001 Federation Contract Starter
 ### TBP-P2-002 Proof-of-Care Prototype
 ### TBP-P2-003 Offline-First Mobile Blueprint
+
+## New Detailed Stories (Execution Pack Expansion)
+
+### TBP-P1-005 Member Recovery Guidance Engine
+- Goal: provide actionable steps for members under threshold.
+- Acceptance: API returns recovery recommendations by policy profile.
+
+### TBP-P1-006 Trust Explainability Timeline
+- Goal: show why trust score changed over time.
+- Acceptance: timeline endpoint with event-level factors and metadata.
+
+### TBP-P1-007 Pilot Health Snapshot Export
+- Goal: export weekly protocol health packet for coordinators.
+- Acceptance: downloadable report includes fairness, disputes, and fulfillment metrics.
+
+### TBP-P2-004 Policy Simulation Sandbox
+- Goal: simulate threshold/reputation changes before applying.
+- Acceptance: sandbox returns before/after distribution and risk deltas.
+
+### TBP-P2-005 Low-Connectivity Mobile Workflow
+- Goal: support field operations with intermittent connectivity.
+- Acceptance: offline queue design + sync conflict policy documented.

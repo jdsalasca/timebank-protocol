@@ -76,3 +76,11 @@ Priority legend:
 15. `story:TBP-P2-003 add offline-first mobile transaction flow blueprint`
 
 Use `.github/workflows/seed-community-issues.yml` to persist these as GitHub issues.
+
+## Additional Deep Stories
+
+16. `story:TBP-P1-005 add member recovery guidance engine`
+17. `story:TBP-P1-006 add trust explainability timeline endpoint`
+18. `story:TBP-P1-007 add pilot health snapshot exports`
+19. `story:TBP-P2-004 build policy simulation sandbox for threshold/reputation`
+20. `story:TBP-P2-005 design low-connectivity mobile workflow and sync policy`
