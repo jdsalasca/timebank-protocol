@@ -54,6 +54,7 @@ Timebank Protocol enables communities to exchange support using verifiable hour 
 
 ## Quality gates before merge
 
+- `npm run agent:preflight`
 - Core script passes (`npm run balances`)
 - Frontend build passes (`npm run build:web`)
 - Java tests pass (`mvn -q test`)
