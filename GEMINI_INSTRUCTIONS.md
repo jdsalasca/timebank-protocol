@@ -54,9 +54,18 @@ Timebank Protocol enables communities to exchange support using verifiable hour 
 
 - Core script passes (`npm run balances`)
 - Frontend build passes (`npm run build:web`)
-- Java build passes when JDK available
+- Java tests pass (`mvn -q test`)
 - OpenAPI matches implementation
 - Docs/examples updated for rule changes
+
+## Critical anti-patterns (must avoid)
+
+- Do not commit generated files (`dist`, `test-results`, screenshots, local artifacts).
+- Do not add dependencies unless explicitly needed by the issue and justified in PR.
+- Do not mix unrelated objectives in one PR.
+- Do not modify docs with malformed escape sequences.
+- Do not break valid JSON in config files.
+- Do not skip tests or bypass required checks.
 
 ## Safety and fairness constraints
 
