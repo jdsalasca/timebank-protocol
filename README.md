@@ -73,3 +73,9 @@ Create a portable, auditable social economy layer for communities.
 - Stop: `npm run docker:dev:down`
 
 See full guide: `docs/DOCKER_CLAUDE.md` and `CLAUDE.md`.
+
+## GHCR Quickstart
+
+- Use prebuilt images: `npm run docker:ghcr:up`
+- Stop GHCR deployment: `npm run docker:ghcr:down`
+- CI image workflow: `.github/workflows/docker-images.yml`

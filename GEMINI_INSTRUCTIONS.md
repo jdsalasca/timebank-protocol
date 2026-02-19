@@ -71,3 +71,10 @@ Post blocker details in issue comment with:
 - exact blocker
 - attempted alternatives
 - minimal decision required
+
+## Container CI/CD
+
+- Workflow: `.github/workflows/docker-images.yml`
+- On PR: builds API/Web images and runs smoke tests.
+- On push to `main/develop`: publishes API/Web images to GHCR.
+- Tags include `sha-*`, branch tags, and `latest` on default branch.

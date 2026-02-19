@@ -1,0 +1,22 @@
+services:
+  api:
+    image: ${API_IMAGE:-ghcr.io/jdsalasca/timebank-protocol-api:latest}
+    container_name: timebank-api
+    environment:
+      SERVER_PORT: 8080
+    ports:
+      - "8082:8080"
+    healthcheck:
+      test: ["CMD", "sh", "-c", "wget -qO- http://localhost:8080/actuator/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 8
+
+  web:
+    image: ${WEB_IMAGE:-ghcr.io/jdsalasca/timebank-protocol-web:latest}
+    container_name: timebank-web
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "3003:80"

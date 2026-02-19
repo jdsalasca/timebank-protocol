@@ -44,3 +44,20 @@ Use this sequence in Claude:
 - Frontend consumes API via `VITE_API_BASE_URL`.
 - Production image uses Nginx proxy for `/api`.
 - Backend remains source of truth for ledger and trust logic.
+
+## GHCR Image Deployment
+
+Images are built in `.github/workflows/docker-images.yml`.
+
+Default image names:
+
+- `ghcr.io/jdsalasca/timebank-protocol-api:latest`
+- `ghcr.io/jdsalasca/timebank-protocol-web:latest`
+
+Run with GHCR images:
+
+```bash
+API_IMAGE=ghcr.io/jdsalasca/timebank-protocol-api:latest \
+WEB_IMAGE=ghcr.io/jdsalasca/timebank-protocol-web:latest \
+docker compose -f infra/docker-compose.yml -f infra/docker-compose.ghcr.yml up -d
+```
