@@ -1,6 +1,6 @@
 # Kanban by Milestone
 
-Last updated: 2026-02-19T13:02:35.470Z
+Last updated: 2026-02-19T18:49:03.019Z
 
 Status labels used by this board:
 - `status:todo`
@@ -10,7 +10,7 @@ Status labels used by this board:
 
 ## Weekly Delivery Metrics
 
-- Window: last 7 days (since 2026-02-12T13:02:34.345Z)
+- Window: last 7 days (since 2026-02-12T18:49:01.560Z)
 - Throughput (issues closed): 0
 - Blockers currently open: 0
 - Rework signal (issues reopened): 0
@@ -80,12 +80,13 @@ Status labels used by this board:
 
 ## No Milestone
 
-- TODO: 46
+- TODO: 47
 - IN_PROGRESS: 0
 - BLOCKED: 0
 - DONE: 0
 
 ### TODO
+- #56 Agent Quality Review 2026-W08
 - #55 story:TBP-P2-005 design low-connectivity mobile workflow and sync policy
 - #54 story:TBP-P2-004 build policy simulation sandbox for threshold/reputation
 - #53 story:TBP-P1-007 add pilot health snapshot exports
