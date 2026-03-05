@@ -1,6 +1,6 @@
 # Kanban by Milestone
 
-Last updated: 2026-03-05T06:50:12.562Z
+Last updated: 2026-03-05T12:57:12.766Z
 
 Status labels used by this board:
 - `status:todo`
@@ -10,7 +10,7 @@ Status labels used by this board:
 
 ## Weekly Delivery Metrics
 
-- Window: last 7 days (since 2026-02-26T06:50:11.299Z)
+- Window: last 7 days (since 2026-02-26T12:57:11.724Z)
 - Throughput (issues closed): 0
 - Blockers currently open: 0
 - Rework signal (issues reopened): 0
