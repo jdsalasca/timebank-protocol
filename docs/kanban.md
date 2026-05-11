@@ -1,6 +1,6 @@
 # Kanban by Milestone
 
-Last updated: 2026-05-11T09:36:13.326Z
+Last updated: 2026-05-11T14:46:14.050Z
 
 Status labels used by this board:
 - `status:todo`
@@ -10,7 +10,7 @@ Status labels used by this board:
 
 ## Weekly Delivery Metrics
 
-- Window: last 7 days (since 2026-05-04T09:36:11.876Z)
+- Window: last 7 days (since 2026-05-04T14:46:12.624Z)
 - Throughput (issues closed): 0
 - Blockers currently open: 0
 - Rework signal (issues reopened): 0
@@ -80,12 +80,14 @@ Status labels used by this board:
 
 ## No Milestone
 
-- TODO: 69
+- TODO: 71
 - IN_PROGRESS: 0
 - BLOCKED: 0
 - DONE: 0
 
 ### TODO
+- #80 Current Sprint Focus 2026-W20
+- #79 Agent Quality Review 2026-W20
 - #78 Current Sprint Focus 2026-W19
 - #77 Agent Quality Review 2026-W19
 - #76 Current Sprint Focus 2026-W18
